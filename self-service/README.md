@@ -34,4 +34,6 @@ modify the python script.
 
 
 All the above files must be burned into a VM template and configured to be executed
-by cloud-init (Linux) or cloudbase-init(Windows).
+by cloud-init (Linux) or cloudbase-init(Windows). Refer to the workflow in
+ntx-ssvm-vmtemplate-customization.png and "cloud-init" and "cloudbase-init" directories
+for sample configuration files.
