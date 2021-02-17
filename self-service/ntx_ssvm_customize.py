@@ -177,7 +177,7 @@ try:
                 logger.info('Joined VM %s to the %s AD Domain', script_host, ad_domain)
             else:
                 logger.error('Failed to join VM %s to the %s AD Domain',
-                script_host, config['active_directory']['ad_domain'])
+                script_host, ad_domain)
             if not subprocess.run(
                 f'{ENABLE_SSSD_CMD}',
                 shell=True,
