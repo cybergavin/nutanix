@@ -1,9 +1,11 @@
-# Nutanix Prism Central/Element credentials
-# Replace <auth token> by the base64 encoded value of user:password.
+##############################################
+# Nutanix Prism Central credentials
+# DO NOT use quotes in credential values
+##############################################
+# Replace <auth hash> by the base64 encoded value of user:password.
 # 
 [ntx_prism]
-ntx_pc_auth = <auth token>
-ntx_pe_auth = <auth token>
+ntx_pc_auth = <auth hash>
 
 # Active Directory Bind account credentials
 [ad_bind]
